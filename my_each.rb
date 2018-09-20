@@ -6,6 +6,4 @@ def my_each(array)
     counter += 1
 end
 
-def my_each(collection) do |i|
-  puts collection[i]
-end 
+def my_each(collection) {|i| puts collection[i]}
