@@ -7,7 +7,7 @@ def my_each(array)
     end 
     array
   else 
-    puts ""
+    puts "Hey! No block was given!"
 end
 
 my_each(collection) do |i|
