@@ -1,7 +1,7 @@
 def my_each(array)
   new_array = []
   counter = 0 
-  yield (array[counter]
+  yield (array[counter])
 end
 
 def my_each do 
